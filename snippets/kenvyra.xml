@@ -3,6 +3,9 @@
 
   <project path="manifest" name="android_manifest" remote="kenvyra" />
 
+  <!-- build -->
+  <project path="build/scripts" name="android_build_scripts" remote="kenvyra" />
+
   <!-- vendor -->
   <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
 
