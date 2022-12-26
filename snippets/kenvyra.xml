@@ -11,6 +11,9 @@
   <project path="external/mimalloc" name="android_external_mimalloc" remote="kenvyra" />
   <project path="external/xz" name="android_external_xz" remote="kenvyra" />
 
+  <!-- hardware -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="kenvyra" revision="kenvyra-13.0-caf-sm8150" />
+
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
 
