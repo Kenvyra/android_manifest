@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-13.0.0_r41" />
 
+  <remote  name="kenvyra"
+           fetch="ssh://git@github.com/Kenvyra"
+           revision="refs/heads/kenvyra-13.0" />
+
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
