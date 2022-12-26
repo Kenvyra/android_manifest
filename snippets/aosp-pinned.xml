@@ -14,6 +14,7 @@
   <project path="external/rust/crates/heck" name="platform/external/rust/crates/heck" groups="pdk" remote="aosp" revision="6a58b9bf125db71812eb134350f2b42228811f03" />
   <project path="external/rust/crates/indexmap" name="platform/external/rust/crates/indexmap" groups="pdk" remote="aosp" revision="2c5be766c5089ce2cec3b99a7662710e8773ee9a" />
   <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="pdk" remote="aosp" revision="07d61c89a2d88b0ba07e5d5a4b3174c5b2c957d5" />
+  <project path="external/rust/crates/os_str_bytes" name="platform/external/rust/crates/os_str_bytes" groups="pdk" remote="aosp" revision="bec3b8519f44d329bfc3d7c8a52f1fe01a0e4d58" />
   <project path="external/rust/crates/structopt-derive" name="platform/external/rust/crates/structopt-derive" groups="pdk" remote="aosp" revision="050d2cac3fb0df73272c6d5f0d0b5134f4624007" />
   <project path="external/rust/cxx" name="platform/external/rust/cxx" groups="pdk" remote="aosp" revision="475673dfe2587bf0a64ad6c88e7589a38d56822c" />
 
