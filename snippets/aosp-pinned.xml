@@ -4,6 +4,7 @@
   <!-- latest revision should always be used -->
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" revision="84c009016732cb57fd5c1343285c438b6e2c8002" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="4a1eaebbcd879d0a5790473f2d2bef18c7a456f0" />
+  <project path="external/rust/crates/ahash" name="platform/external/rust/crates/ahash" groups="pdk" remote="aosp" revision="c86cc9d4f119303c059c37051011870e1d9b0cbb" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="c756d66afe3bac6f321ce0bbdf28d543759b28ab" />
   <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" groups="pdk" remote="aosp" revision="ace57039a8e8586b21df23ce07a9c4c5215d1b33" />
   <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" groups="pdk" remote="aosp" revision="91816952f8d7a76a9f38a0b6476060635c90aa7f" />
