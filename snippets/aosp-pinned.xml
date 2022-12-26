@@ -7,5 +7,6 @@
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="c756d66afe3bac6f321ce0bbdf28d543759b28ab" />
   <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" groups="pdk" remote="aosp" revision="ace57039a8e8586b21df23ce07a9c4c5215d1b33" />
   <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" groups="pdk" remote="aosp" revision="91816952f8d7a76a9f38a0b6476060635c90aa7f" />
+  <project path="external/rust/crates/hashbrown" name="platform/external/rust/crates/hashbrown" groups="pdk" remote="aosp" revision="6030b8b6a920d10a0f2be55d6e461fd632f01df3" />
 
 </manifest>
