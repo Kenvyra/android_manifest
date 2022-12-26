@@ -4,5 +4,6 @@
   <!-- latest revision should always be used -->
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" revision="84c009016732cb57fd5c1343285c438b6e2c8002" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="4a1eaebbcd879d0a5790473f2d2bef18c7a456f0" />
+  <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="c756d66afe3bac6f321ce0bbdf28d543759b28ab" />
 
 </manifest>
