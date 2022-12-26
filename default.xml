@@ -17,6 +17,10 @@
            fetch="ssh://git@github.com/Kenvyra"
            revision="refs/heads/kenvyra-13.0" />
 
+  <remote  name="kenvyra-gitlab"
+           fetch="ssh://git@gitlab.com/Kenvyra"
+           revision="refs/heads/kenvyra-13.0" />
+
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
