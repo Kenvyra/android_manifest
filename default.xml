@@ -442,7 +442,6 @@
   <project path="external/rust/crates/anyhow" name="platform/external/rust/crates/anyhow" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/arbitrary" name="platform/external/rust/crates/arbitrary" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/argh" name="platform/external/rust/crates/argh" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/argh_derive" name="platform/external/rust/crates/argh_derive" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/argh_shared" name="platform/external/rust/crates/argh_shared" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/ash" name="platform/external/rust/crates/ash" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/async-stream" name="platform/external/rust/crates/async-stream" groups="pdk" remote="aosp" />
