@@ -641,7 +641,6 @@
   <project path="external/rust/crates/x509-parser" name="platform/external/rust/crates/x509-parser" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/xml-rs" name="platform/external/rust/crates/xml-rs" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/zip" name="platform/external/rust/crates/zip" groups="pdk" remote="aosp" />
-  <project path="external/rust/cxx" name="platform/external/rust/cxx" groups="pdk" remote="aosp" />
   <project path="external/ruy" name="platform/external/ruy" groups="pdk" remote="aosp" />
   <project path="external/s2-geometry-library-java" name="platform/external/s2-geometry-library-java" groups="pdk" remote="aosp" />
   <project path="external/scapy" name="platform/external/scapy" groups="pdk-fs" remote="aosp" />
