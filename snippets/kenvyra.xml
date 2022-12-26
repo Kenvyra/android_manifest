@@ -6,6 +6,9 @@
   <!-- build -->
   <project path="build/scripts" name="android_build_scripts" remote="kenvyra" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
+
   <!-- vendor -->
   <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
 
