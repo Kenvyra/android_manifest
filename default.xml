@@ -453,7 +453,7 @@
   <project path="external/rust/crates/atty" name="platform/external/rust/crates/atty" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/base64" name="platform/external/rust/crates/base64" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bencher" name="platform/external/rust/crates/bencher" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/bindgen" name="platform/external/rust/crates/bindgen" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/bindgen" name="android_external_rust_crates_bindgen" groups="pdk" remote="kenvyra" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bstr" name="platform/external/rust/crates/bstr" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" groups="pdk" remote="aosp" />
