@@ -10,5 +10,6 @@
   <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" groups="pdk" remote="aosp" revision="91816952f8d7a76a9f38a0b6476060635c90aa7f" />
   <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" remote="aosp" revision="ef63caa332f26512f7266b25516fa564b28f0810" />
   <project path="external/rust/crates/hashbrown" name="platform/external/rust/crates/hashbrown" groups="pdk" remote="aosp" revision="6030b8b6a920d10a0f2be55d6e461fd632f01df3" />
+  <project path="external/rust/crates/heck" name="platform/external/rust/crates/heck" groups="pdk" remote="aosp" revision="6a58b9bf125db71812eb134350f2b42228811f03" />
 
 </manifest>
