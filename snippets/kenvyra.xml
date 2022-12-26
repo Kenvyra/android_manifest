@@ -3,4 +3,7 @@
 
   <project path="manifest" name="android_manifest" remote="kenvyra" />
 
+  <!-- vendor -->
+  <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
+
 </manifest>
