@@ -5,5 +5,6 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" revision="84c009016732cb57fd5c1343285c438b6e2c8002" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="4a1eaebbcd879d0a5790473f2d2bef18c7a456f0" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="c756d66afe3bac6f321ce0bbdf28d543759b28ab" />
+  <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" groups="pdk" remote="aosp" revision="ace57039a8e8586b21df23ce07a9c4c5215d1b33" />
 
 </manifest>
