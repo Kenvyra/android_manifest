@@ -329,7 +329,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" remote="aosp" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
-  <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
+  <project path="external/minijail" name="android_external_minijail" groups="pdk" remote="kenvyra" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" remote="aosp" />
   <project path="external/mobly-snippet-lib" name="platform/external/mobly-snippet-lib" groups="pdk" remote="aosp" />
