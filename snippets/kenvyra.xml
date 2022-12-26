@@ -7,6 +7,7 @@
   <project path="build/scripts" name="android_build_scripts" remote="kenvyra" />
 
   <!-- external -->
+  <project path="external/mimalloc" name="android_external_mimalloc" remote="kenvyra" />
   <project path="external/xz" name="android_external_xz" remote="kenvyra" />
 
   <!-- prebuilts -->
