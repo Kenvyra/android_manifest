@@ -20,6 +20,7 @@
   <project path="prebuilts/microg" name="android_prebuilts_microg" remote="kenvyra" />
 
   <!-- vendor -->
+  <project path="vendor/gms" name="android_vendor_gms" remote="kenvyra-gitlab" />
   <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
 
 </manifest>
