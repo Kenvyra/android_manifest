@@ -16,6 +16,7 @@
 
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
+  <project path="prebuilts/fdroid" name="android_prebuilts_fdroid" remote="kenvyra" />
 
   <!-- vendor -->
   <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
