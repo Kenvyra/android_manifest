@@ -16,6 +16,9 @@
   <!-- hardware -->
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="kenvyra" revision="kenvyra-13.0-caf-sm8150" />
 
+  <!-- packages -->
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="kenvyra" />
+
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
   <project path="prebuilts/fdroid" name="android_prebuilts_fdroid" remote="kenvyra" />
