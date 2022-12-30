@@ -18,6 +18,7 @@
 
   <!-- packages -->
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="kenvyra" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="kenvyra" />
 
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
