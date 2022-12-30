@@ -2,6 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android_manifest" remote="kenvyra" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="kenvyra" />
 
   <!-- build -->
   <project path="build/scripts" name="android_build_scripts" remote="kenvyra" />
