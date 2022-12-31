@@ -17,6 +17,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="kenvyra" revision="kenvyra-13.0-caf-sm8150" />
 
   <!-- packages -->
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kenvyra" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="kenvyra" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="kenvyra" />
 
