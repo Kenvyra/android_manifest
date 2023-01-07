@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- shared across all redbull devices -->
+  <project path="device/google/redbull" name="android_device_google_redbull" remote="kenvyra" />
+  <project path="kernel/google/redbull" name="android_kernel_google_redbull" remote="kenvyra" />
+
+  <!-- redfin (Pixel 5) -->
+  <project path="device/google/redfin" name="android_device_google_redfin" remote="kenvyra" />
+
+  <include name="manifests/snippets/devices/google.xml" />
+
+</manifest>

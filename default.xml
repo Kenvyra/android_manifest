@@ -1136,6 +1136,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
   <include name="snippets/kenvyra.xml" />
-  <include name="snippets/devices.xml" />
   <include name="snippets/aosp-pinned.xml" />
 </manifest>

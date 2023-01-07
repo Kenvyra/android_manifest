@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Common Xiaomi device dependencies -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="kenvyra" />
+  <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="kenvyra-gitlab" />
+
+</manifest>
