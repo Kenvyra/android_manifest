@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- xiaomi-sm8450 specific forks -->
+  <remote name="xiaomi-sm8450-kernel"
+          fetch="ssh://git@github.com/xiaomi-sm8450-kernel"
+          revision="lineage-20" />
+
+  <project name="android_kernel_platform_build" path="kernel_platform/build" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.cupid" src="build.config.msm.cupid"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.cupid.tuivm" src="build.config.msm.cupid.tuivm"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.zeus" src="build.config.msm.zeus"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.zeus.tuivm" src="build.config.msm.zeus.tuivm"/>
+  </project>
+
+  <project name="android_vendor_qcom_opensource_audio-kernel" path="vendor/qcom/opensource/audio-kernel" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" src="audio_kernel_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" src="audio_kernel_product_board.mk"/>
+  </project>
+  <project name="android_vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
+  </project>
+  <project name="android_vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
+  </project>
+
+  <!-- Forked to pick https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0/-/commit/5705732b1796da7dc30d1cbf268bb6cb3c97ec29 -->
+  <project name="android_vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="xiaomi-sm8450-kernel"/>
+
+  <!-- Proprietary -->
+  <project name="android_vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="." />
+  </project>
+  <project name="android_vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_vendor_qcom_proprietary_cvp-devicetree" path="vendor/qcom/proprietary/cvp-devicetree" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" remote="xiaomi-sm8450-kernel"/>
+  <project name="android_vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" remote="xiaomi-sm8450-kernel"/>
+
+  <!-- Kernel platform manifest -->
+  <!-- https://git.codelinaro.org/clo/la/kernelplatform/manifest -->
+  <remote name="clo_kernel_waipio"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0" />
+  <project groups="qki" name="kernel/common" path="kernel_platform/common" remote="clo_kernel_waipio"/>
+  <project clone-depth="1" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="clo_kernel_waipio"/>
+  <project name="kernel_platform/external/dtc" remote="clo_kernel_waipio"/>
+  <project name="kernel_platform/kernel/prebuilts/mainline/arm64" remote="clo_kernel_waipio"/>
+  <project clone-depth="1" name="kernel_platform/prebuilts/build-tools" remote="clo_kernel_waipio"/>
+  <project name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" remote="clo_kernel_waipio"/>
+  <project clone-depth="1" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts-master/clang/host/linux-x86" remote="clo_kernel_waipio"/>
+  <project clone-depth="1" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="clo_kernel_waipio"/>
+
+  <!-- Video manifest -->
+  <!-- https://git.codelinaro.org/clo/la/techpack/video/manifest -->
+  <remote name="clo_video_waipio"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0" />
+  <project groups="cyborg" name="platform/vendor/opensource/mmrm-driver" path="vendor/qcom/opensource/mmrm-driver" remote="clo_video_waipio">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/mmrm_kernel_board.mk" src="mmrm_kernel_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/mmrm_kernel_product.mk" src="mmrm_kernel_product.mk"/>
+  </project>
+  <project groups="cyborg" name="platform/vendor/opensource/mmrm-driver-test" path="vendor/qcom/opensource/mmrm-driver/test" remote="clo_video_waipio"/>
+  <project groups="cyborg" name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver" remote="clo_video_waipio">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/video_kernel_product.mk" src="video_kernel_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/video_kernel_board.mk" src="video_kernel_board.mk"/>
+  </project>
+
+  <!-- Vendor manifest -->
+  <!-- https://git.codelinaro.org/clo/la/la/vendor/manifest -->
+  <remote name="clo_vendor_waipio"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0" />
+  <project name="platform/vendor/opensource/cvp-kernel" path="vendor/qcom/opensource/cvp-kernel" remote="clo_vendor_waipio">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/cvp_kernel_product.mk" src="cvp_kernel_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/cvp_kernel_board.mk" src="cvp_kernel_board.mk"/>
+  </project>
+  <project name="platform/vendor/opensource/dataipa" path="vendor/qcom/opensource/dataipa" remote="clo_vendor_waipio">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/dataipa_dlkm_vendor_board.mk" src="dataipa_dlkm_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/dataipa_dlkm_vendor_product.mk" src="dataipa_dlkm_vendor_product.mk"/>
+  </project>
+  <project name="platform/vendor/opensource/eva-kernel" path="vendor/qcom/opensource/eva-kernel" remote="clo_vendor_waipio">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/eva_kernel_product.mk" src="eva_kernel_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/eva_kernel_board.mk" src="eva_kernel_board.mk"/>
+  </project>
+  <project name="platform/vendor/opensource/touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="clo_vendor_waipio"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="clo_vendor_waipio"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="clo_vendor_waipio"/>
+  <!--<project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="clo_vendor_waipio"/>-->
+  <project name="platform/vendor/qcom/opensource/datarmnet" path="vendor/qcom/opensource/datarmnet" remote="clo_vendor_waipio">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_dlkm_vendor_board.mk" src="datarmnet_dlkm_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_dlkm_vendor_product.mk" src="datarmnet_dlkm_vendor_product.mk"/>
+  </project>
+  <project name="platform/vendor/qcom/opensource/datarmnet-ext" path="vendor/qcom/opensource/datarmnet-ext" remote="clo_vendor_waipio">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_ext_dlkm_vendor_board.mk" src="datarmnet_ext_dlkm_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_ext_dlkm_vendor_product.mk" src="datarmnet_ext_dlkm_vendor_product.mk"/>
+  </project>
+
+</manifest>
