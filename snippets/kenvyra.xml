@@ -30,5 +30,6 @@
   <!-- vendor -->
   <project path="vendor/gms" name="android_vendor_gms" remote="kenvyra-gitlab" />
   <project path="vendor/kenvyra" name="android_vendor_kenvyra" remote="kenvyra" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="kenvyra" />
 
 </manifest>
