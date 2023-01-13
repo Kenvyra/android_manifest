@@ -5,9 +5,9 @@
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="4a1eaebbcd879d0a5790473f2d2bef18c7a456f0" />
   <project path="external/rust/crates/ahash" name="platform/external/rust/crates/ahash" groups="pdk" remote="aosp" revision="c86cc9d4f119303c059c37051011870e1d9b0cbb" />
   <project path="external/rust/crates/argh_derive" name="platform/external/rust/crates/argh_derive" groups="pdk" remote="aosp" revision="7fa4601eb8a30b3c570d9ef25bcfd4b2a52775bb" />
-  <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="c756d66afe3bac6f321ce0bbdf28d543759b28ab" />
-  <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" groups="pdk" remote="aosp" revision="ace57039a8e8586b21df23ce07a9c4c5215d1b33" />
-  <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" groups="pdk" remote="aosp" revision="91816952f8d7a76a9f38a0b6476060635c90aa7f" />
+  <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="0e6eedf89964353bbb9c71aa0021400b5b756585" />
+  <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" groups="pdk" remote="aosp" revision="5cbdc0a33f96b84f961365b1db908c7566afc258" />
+  <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" groups="pdk" remote="aosp" revision="72da9290d160cef5f71aed697102bd7da8a9a6b4" />
   <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="pdk" remote="aosp" revision="90bb4e52906640f9f0f1749ac2c41c4e499953bf" />
   <project path="external/rust/crates/foreign-types-macros" name="platform/external/rust/crates/foreign-types-macros" groups="pdk" remote="aosp" revision="40096061e9c8f51ed442c71daf0df55606fb22e9" />
   <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="pdk" remote="aosp" revision="99dc61121bdb051c561c86287990d271769d4452" />
