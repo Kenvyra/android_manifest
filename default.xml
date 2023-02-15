@@ -512,7 +512,7 @@
   <project path="external/rust/crates/glob" name="platform/external/rust/crates/glob" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/grpcio" name="platform/external/rust/crates/grpcio" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/grpcio-compiler" name="platform/external/rust/crates/grpcio-compiler" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/grpcio-sys" name="platform/external/rust/crates/grpcio-sys" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/grpcio-sys" name="android_external_rust_crates_grpcio-sys" groups="pdk" remote="kenvyra" />
   <project path="external/rust/crates/half" name="platform/external/rust/crates/half" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/hashlink" name="platform/external/rust/crates/hashlink" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/idna" name="platform/external/rust/crates/idna" groups="pdk" remote="aosp" />
