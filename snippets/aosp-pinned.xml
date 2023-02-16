@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- latest revision should always be used -->
-  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="4a1eaebbcd879d0a5790473f2d2bef18c7a456f0" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" revision="32fe2acd85cc0dd0e88b779f3216e11260c93147" />
   <project path="external/rust/crates/ahash" name="platform/external/rust/crates/ahash" groups="pdk" remote="aosp" revision="c86cc9d4f119303c059c37051011870e1d9b0cbb" />
   <project path="external/rust/crates/argh_derive" name="platform/external/rust/crates/argh_derive" groups="pdk" remote="aosp" revision="7fa4601eb8a30b3c570d9ef25bcfd4b2a52775bb" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" revision="0e6eedf89964353bbb9c71aa0021400b5b756585" />
