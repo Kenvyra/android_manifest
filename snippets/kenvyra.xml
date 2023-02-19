@@ -30,7 +30,7 @@
 
   <!-- prebuilts -->
   <project path="prebuilts/chromium" name="android_prebuilts_chromium" remote="kenvyra-gitlab" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/adrian-clang" name="android_prebuilts_clang_host_linux-x86_adrian-clang" remote="kenvyra-gitlab" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" groups="pdk" remote="kenvyra-gitlab" />
   <project path="prebuilts/fdroid" name="android_prebuilts_fdroid" remote="kenvyra" />
   <project path="prebuilts/microg" name="android_prebuilts_microg" remote="kenvyra" />
 
