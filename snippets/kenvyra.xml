@@ -13,6 +13,7 @@
   <!-- external -->
   <project path="external/bash" name="android_external_bash" remote="kenvyra" />
   <project path="external/colorkt" name="android_external_colorkt" remote="kenvyra" />
+  <project path="external/GmsCompatConfig" name="android_external_GmsCompatConfig" groups="pdk-fs" remote="kenvyra" />
   <project path="external/htop" name="android_external_htop" remote="kenvyra" />
   <project path="external/mimalloc" name="android_external_mimalloc" remote="kenvyra" />
   <project path="external/themelib" name="android_external_themelib" remote="kenvyra" />
