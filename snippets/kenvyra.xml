@@ -36,6 +36,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" groups="pdk" remote="kenvyra-gitlab" />
   <project path="prebuilts/fdroid" name="android_prebuilts_fdroid" remote="kenvyra" />
   <project path="prebuilts/microg" name="android_prebuilts_microg" remote="kenvyra" />
+  <project path="prebuilts/rust/linux-x86/1.69.0" name="android_prebuilts_rust_linux-x86_1.69.0" groups="pdk" clone-depth="1" remote="kenvyra-gitlab" />
 
   <!-- vendor -->
   <project path="vendor/gms" name="android_vendor_gms" remote="kenvyra-gitlab" />
