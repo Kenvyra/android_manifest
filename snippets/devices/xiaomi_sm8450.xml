@@ -12,7 +12,7 @@
   <project path="vendor/qcom/opensource/core-utils-vendor" name="platform/vendor/qcom-opensource/core-utils-vendor" remote="clo" revision="refs/tags/LA.VENDOR.1.0.r1-18000-WAIPIO.QSSI13.0" />
 
   <!-- common -->
-  <project path="device/qcom/common" name="device/qcom/common" remote="clo" revision="refs/tags/LA.VENDOR.1.0.r1-18000-WAIPIO.QSSI13.0" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="kenvyra" />
 
   <!-- Kernel -->
   <include name="manifests/snippets/devices/xiaomi_sm8450_kernel.xml" />
