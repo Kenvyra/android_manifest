@@ -229,7 +229,7 @@
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" remote="aosp" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
-  <project path="external/image_io" name="platform/external/image_io" groups="pdk" remote="aosp" />
+  <project path="external/image_io" name="android_external_image_io" groups="pdk" remote="kenvyra" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iperf3" name="platform/external/iperf3" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
