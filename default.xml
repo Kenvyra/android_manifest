@@ -391,7 +391,7 @@
   <project path="external/ply" name="platform/external/ply" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
+  <project path="external/protobuf" name="android_external_protobuf" groups="pdk" remote="kenvyra" />
   <project path="external/psimd" name="platform/external/psimd" groups="pdk" remote="aosp" />
   <project path="external/pthreadpool" name="platform/external/pthreadpool" groups="pdk" remote="aosp" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" remote="aosp" />
