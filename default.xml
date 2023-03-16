@@ -125,7 +125,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" remote="aosp" />
-  <project path="external/capstone" name="platform/external/capstone" groups="pdk" remote="aosp" />
+  <project path="external/capstone" name="android_external_capstone" groups="pdk" remote="kenvyra" />
   <project path="external/catch2" name="platform/external/catch2" groups="pdk" remote="aosp" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/cbor-java" name="platform/external/cbor-java" groups="pdk" remote="aosp" />
