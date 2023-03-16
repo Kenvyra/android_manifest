@@ -196,7 +196,7 @@
   <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" remote="aosp" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk" remote="aosp" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" groups="pdk" remote="aosp" />
-  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="pdk-fs" remote="aosp" />
+  <project path="external/google-breakpad" name="android_external_google-breakpad" groups="pdk-fs" remote="kenvyra-gitlab" />
   <project path="external/google-fonts/arbutus-slab" name="platform/external/google-fonts/arbutus-slab" groups="pdk" remote="aosp" />
   <project path="external/google-fonts/arvo" name="platform/external/google-fonts/arvo" groups="pdk" remote="aosp" />
   <project path="external/google-fonts/barlow" name="platform/external/google-fonts/barlow" groups="pdk" remote="aosp" />
