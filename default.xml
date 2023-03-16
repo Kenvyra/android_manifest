@@ -697,7 +697,7 @@
   <project path="external/ukey2" name="platform/external/ukey2" groups="pdk" remote="aosp" />
   <project path="external/usrsctp" name="platform/external/usrsctp" groups="pdk" remote="aosp" />
   <project path="external/uwb" name="android_external_uwb" groups="pdk" remote="kenvyra" />
-  <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" />
+  <project path="external/v4l2_codec2" name="android_external_v4l2_codec2" groups="pdk" remote="kenvyra" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" />
   <project path="external/vixl" name="android_external_vixl" groups="pdk" remote="kenvyra" />
