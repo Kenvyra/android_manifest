@@ -23,4 +23,7 @@
   <!-- specific revision because bluetooth apex was renamed later -->
   <project path="external/rust/cxx" name="platform/external/rust/cxx" groups="pdk" remote="aosp" revision="4457dc4a5e5ab698eeb79672cdd3f8705cb31ac0" />
 
+  <!-- not yet in AOSP but should be soon -->
+  <project path="external/rust/crates/annotate-snippets-rs" name="android_external_rust_crates_annotate-snippets-rs" groups="pdk" remote="kenvyra" />
+
 </manifest>
