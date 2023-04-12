@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- xiaomi-sm8450 specific forks -->
   <remote name="xiaomi-sm8450-kernel"
           fetch="ssh://git@github.com/xiaomi-sm8450-kernel"
           revision="lineage-20" />
 
   <project name="android_kernel_platform_build" path="kernel_platform/build" remote="xiaomi-sm8450-kernel"/>
-  <project name="android_kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="xiaomi-sm8450-kernel">
+  <project name="android_kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="xiaomi-sm8450-kernel" revision="KERNEL.PLATFORM.1.0.r1-14700-kernel.0">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
@@ -17,21 +16,18 @@
     <linkfile dest="kernel_platform/common/build.config.msm.zeus.tuivm" src="build.config.msm.zeus.tuivm"/>
   </project>
 
-  <project name="android_vendor_qcom_opensource_audio-kernel" path="vendor/qcom/opensource/audio-kernel" remote="xiaomi-sm8450-kernel">
+  <project name="android_vendor_qcom_opensource_audio-kernel" path="vendor/qcom/opensource/audio-kernel" remote="xiaomi-sm8450-kernel" revision="LA.VENDOR.1.0.r1-20900-WAIPIO.QSSI13.0">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" src="audio_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" src="audio_kernel_product_board.mk"/>
   </project>
-  <project name="android_vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="xiaomi-sm8450-kernel">
+  <project name="android_vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="xiaomi-sm8450-kernel" revision="CAMERA.LA.2.0.r1-09800-WAIPIO.0">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
   </project>
-  <project name="android_vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="xiaomi-sm8450-kernel">
+  <project name="android_vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="xiaomi-sm8450-kernel" revision="DISPLAY.LA.2.0.r1-10200-WAIPIO.0">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
   </project>
-
-  <!-- Forked to pick https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0/-/commit/5705732b1796da7dc30d1cbf268bb6cb3c97ec29 -->
-  <project name="android_vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="xiaomi-sm8450-kernel"/>
 
   <!-- Proprietary -->
   <project name="android_vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="xiaomi-sm8450-kernel">
@@ -51,7 +47,7 @@
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0" />
+          revision="refs/tags/KERNEL.PLATFORM.1.0.r1-14700-kernel.0" />
   <project groups="qki" name="kernel/common" path="kernel_platform/common" remote="clo_kernel_waipio"/>
   <project clone-depth="1" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="clo_kernel_waipio"/>
   <project name="kernel_platform/external/dtc" remote="clo_kernel_waipio"/>
@@ -68,7 +64,7 @@
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0" />
+          revision="refs/tags/VIDEO.LA.2.0.r1-08000-WAIPIO.0" />
   <project groups="cyborg" name="platform/vendor/opensource/mmrm-driver" path="vendor/qcom/opensource/mmrm-driver" remote="clo_video_waipio">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/mmrm_kernel_board.mk" src="mmrm_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/mmrm_kernel_product.mk" src="mmrm_kernel_product.mk"/>
@@ -86,7 +82,7 @@
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0" />
+          revision="refs/tags/LA.VENDOR.1.0.r1-20900-WAIPIO.QSSI13.0" />
   <project name="platform/vendor/opensource/cvp-kernel" path="vendor/qcom/opensource/cvp-kernel" remote="clo_vendor_waipio">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/cvp_kernel_product.mk" src="cvp_kernel_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/cvp_kernel_board.mk" src="cvp_kernel_board.mk"/>
@@ -102,7 +98,7 @@
   <project name="platform/vendor/opensource/touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="clo_vendor_waipio"/>
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="clo_vendor_waipio"/>
   <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="clo_vendor_waipio"/>
-  <!--<project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="clo_vendor_waipio"/>-->
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="clo_vendor_waipio"/>
   <project name="platform/vendor/qcom/opensource/datarmnet" path="vendor/qcom/opensource/datarmnet" remote="clo_vendor_waipio">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_dlkm_vendor_board.mk" src="datarmnet_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_dlkm_vendor_product.mk" src="datarmnet_dlkm_vendor_product.mk"/>
@@ -111,5 +107,4 @@
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_ext_dlkm_vendor_board.mk" src="datarmnet_ext_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_ext_dlkm_vendor_product.mk" src="datarmnet_ext_dlkm_vendor_product.mk"/>
   </project>
-
 </manifest>
