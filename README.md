@@ -11,7 +11,7 @@ Building the ROM requires you to initialize the manifest first, like so:
 ```bash
 mkdir kenvyra
 cd kenvyra
-repo init -u git://github.com/Kenvyra/android_manifest.git -b kenvyra-13.0
+repo init -u https://github.com/Kenvyra/android_manifest.git -b kenvyra-13.0
 ```
 
 Then, make sure you add your device repositories to `.repo/local_manifests/local_manifest.xml`.
