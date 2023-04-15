@@ -19,11 +19,13 @@
   <project path="external/mimalloc" name="android_external_mimalloc" remote="kenvyra" />
   <project path="external/themelib" name="android_external_themelib" remote="kenvyra" />
   <project path="external/xz" name="android_external_xz" remote="kenvyra" />
+  <project path="external/yifan" name="android_external_yifan" remote="kenvyra" />
 
   <!-- hardware -->
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="kenvyra" revision="kenvyra-13.0-caf-sm8150" />
 
   <!-- packages -->
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="kenvyra" />
   <project path="packages/apps/GmsCompat" name="android_packages_apps_GmsCompat" groups="pdk-fs" remote="kenvyra" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kenvyra" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="kenvyra" />
