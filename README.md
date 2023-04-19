@@ -47,7 +47,7 @@ It's time to start building. We recommend using our container environment to ens
 
 ```bash
 # Build the container image once (you don't need to run this every time, just once)
-./build/scripts/build.image.sh
+./build/scripts/build-image.sh
 
 # For vanilla
 ./build/scripts/podman.sh "lunch kenvyra_device-buildtype; make bacon"
