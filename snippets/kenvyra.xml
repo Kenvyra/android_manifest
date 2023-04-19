@@ -23,6 +23,7 @@
 
   <!-- hardware -->
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="kenvyra" revision="kenvyra-13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" remote="kenvyra" revision="kenvyra-13.0-caf-sm8250" />
 
   <!-- packages -->
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="kenvyra" />
